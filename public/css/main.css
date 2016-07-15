@@ -1,0 +1,69 @@
+
+body {
+    margin: 50px 0 50px 0;
+    text-align: center;
+    background: #ffffff url('../img/swirl_pattern.png') repeat;
+}
+
+.wordWrap {
+    word-wrap: break-word;      /* IE 5.5-7 */
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap;      /* current browsers */
+}
+
+table {table-layout:fixed; }
+table td {word-wrap:break-word;}
+
+.goalContent:hover {
+    cursor: text;
+    border: 5px solid rgba(0, 0, 0, 0.28);
+}
+
+.table-responsive {
+    position: relative;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 0 1px 10px 1px #888888;
+    background: #ffffff url('../img/paper.png') repeat;
+    opacity: 0.8;
+
+}
+
+.reportTtileRow {
+    padding-bottom: 20px;
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #0f0909;
+    vertical-align: middle;
+}
+
+.reportArchive {
+    padding: 0 5px 0 0;
+    box-shadow: 0 1px 10px 1px #888888;
+    background: #ffffff url('../img/paper.png') repeat;
+    opacity: 0.8;
+}
+
+#submitStatus {
+    color: #ff8360;
+    font-size: 60px;
+    padding: 5px 15px 5px 5px;
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+    top: 40%;
+    left: 40%;
+}
+
+#reportSubmitButton {
+    font-size: 30px;
+    display: inline-block;
+}
+
+#reportSubmitButton:hover {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    background: #ffffff url('../img/paper.png') repeat;
+}

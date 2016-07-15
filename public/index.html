@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Pinterest Clone</title>
+
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Proza+Libre" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="col-lg-12 table-responsive">
+
+    <div class="row reportTtileRow">
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-2" >
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <h4><b>所有报告<span class="caret"></span></b> </h4>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"> abc </a></li>
+                        <li>abc</li>
+                        <li>abc</li>
+                        <li>abc</li>
+                        <li>abc</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-4 ">
+            <span class="reportTtile"><h1><b>员工工作日志</b></h1></span>
+        </div>
+        <div class="col-lg-2">
+<a href="/logout" style="vertical-align: middle"><h4><b>退出登录</b> </h4></a>
+        </div>
+        <div class="col-lg-2">
+
+        </div>
+    </div>
+    <div class="row">
+    <table class="table table-bordered">
+        <tbody><tr>
+            <td tabindex="1" colspan="2" class="col-lg-1">部门</td>
+            <td class="goalContent" tabindex="1" colspan="5" contenteditable="true" id="01"></td>
+            <td class="col-lg-1" tabindex="1" colspan="2">姓名</td>
+            <td class="goalContent" tabindex="1" colspan="5" contenteditable="true" id="02"></td>
+            <td class="col-lg-1" tabindex="1" colspan="2">岗位</td>
+            <td class="goalContent" tabindex="1" colspan="5" contenteditable="true" id="03"></td>
+            <td tabindex="1" colspan="2" class="col-lg-1">日期</td>
+            <td class="goalContent" tabindex="1" colspan="7" contenteditable="true" id="04"></td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="30"><h3><b>今日工作</b></h3></td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="2">序号</td>
+            <td tabindex="1" colspan="5">工作时间</td>
+            <td tabindex="1" colspan="2">重要程度</td>
+            <td tabindex="1" colspan="16">具体内容</td>
+            <td tabindex="1" colspan="5">完成</td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="2">1</td>
+            <td tabindex="1" colspan="2" rowspan="4">上午</td>
+            <td tabindex="1" colspan="3">08:00-09:00</td>
+            <td id="11" class="goalContent" tabindex="1" colspan="2" contenteditable="true"></td>
+            <td colspan="16" id="12" class="col-lg-6 goalContent" contenteditable="true"></td>
+            <td colspan="5" tabindex="1"><input id="13" type="checkbox" autocomplete="off" style="
+    display: none;
+"></td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="2">2</td>
+            <td tabindex="1" colspan="3">09:00-10:00</td>
+            <td id="21" class="goalContent" tabindex="1" colspan="2" contenteditable="true"></td>
+            <td id="22" class="goalContent" colspan="16" tabindex="1" contenteditable="true"></td>
+            <td colspan="5" tabindex="1"><input id="23" type="checkbox" autocomplete="off" style="
+    display: none;
+"></td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="2">3</td>
+            <td tabindex="1" colspan="3">10:00-11:00</td>
+            <td id="31" class="goalContent" tabindex="1" colspan="2" contenteditable="true"></td>
+            <td id="32" class="goalContent" colspan="16" tabindex="1" contenteditable="true"></td>
+            <td colspan="5" tabindex="1"><input id="33" type="checkbox" autocomplete="off" style="
+    display: none;
+"></td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="2">4</td>
+            <td tabindex="1" colspan="3">11:00-12:00</td>
+            <td id="41" class="goalContent" tabindex="1" colspan="2" contenteditable="true"></td>
+            <td id="42" class="goalContent" colspan="16" tabindex="1" contenteditable="true"></td>
+            <td colspan="5" tabindex="1"><input id="43" type="checkbox" autocomplete="off" style="
+    display: none;
+"></td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="2">5</td>
+            <td rowspan="4" tabindex="1" colspan="2">下午</td>
+            <td tabindex="1" colspan="3">13:30-14:30</td>
+            <td id="51" class="goalContent" tabindex="1" colspan="2" contenteditable="true"></td>
+            <td id="52" class="goalContent" colspan="16" tabindex="1" contenteditable="true"></td>
+            <td colspan="5" tabindex="1"><input id="53" type="checkbox" autocomplete="off" style="
+    display: none;
+"></td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="2">6</td>
+            <td tabindex="1" colspan="3">14:30-15:30</td>
+            <td id="61" class="goalContent" tabindex="1" colspan="2" contenteditable="true"></td>
+            <td id="62" class="goalContent" colspan="16" tabindex="1" contenteditable="true"></td>
+            <td colspan="5" tabindex="1"><input id="63" type="checkbox" autocomplete="off" style="
+    display: none;
+"></td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="2">7</td>
+            <td tabindex="1" colspan="3">15:30-16:30</td>
+            <td id="71" class="goalContent" tabindex="1" colspan="2" contenteditable="true"></td>
+            <td id="72" class="goalContent" colspan="16" tabindex="1" contenteditable="true"></td>
+            <td colspan="5" tabindex="1"><input id="73" type="checkbox" autocomplete="off" style="
+    display: none;
+"></td>
+        </tr>
+        <tr>
+            <td tabindex="1" colspan="2">8</td>
+            <td tabindex="1" colspan="3">16:30-17:30</td>
+            <td id="81" class="goalContent" tabindex="1" colspan="2" contenteditable="true"></td>
+            <td id="82" class="goalContent" colspan="16" tabindex="1" contenteditable="true"></td>
+            <td colspan="5" tabindex="1"><input id="83" type="checkbox" autocomplete="off" style="
+    display: none;
+"></td>
+        </tr>
+        </tbody></table>
+
+    <div id="submitStatus"></div>
+    <button class="btn btn-primary" id="reportSubmitButton">提交</button>
+</div>
+</div>
+
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--<script src="js/jquery-1.11.3.js"></script>-->
+<script src="js/jquery-1.11.3.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/imagesloaded.pkgd.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
